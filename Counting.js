@@ -4,11 +4,12 @@ import { Increment, Decrement, Reset } from "./Slicer1";
 
 export default function Counting(){
      
-    const count = useSelector((state)=> state.slice1.count); // useselector to fetch the state values from the slices
+    const count = useSelector((state)=> state.slice1.count);
+    // subscribing to the event
     const dispatch = useDispatch();
-
-    console.log(Increment()); //not a normal increment(have slice,..)
-    console.log(Decrement());
+   
+    console.log(Increment());
+   
 
     return(
         <>

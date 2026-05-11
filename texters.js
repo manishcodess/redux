@@ -1,6 +1,3 @@
-// state looks like this internally
-
-
 const state = {
     slice1:{
         count:0
@@ -13,3 +10,6 @@ const state = {
         login:true,
     }
 }
+
+
+// actions: {type: "slice/Increment" , payload: undefined}
